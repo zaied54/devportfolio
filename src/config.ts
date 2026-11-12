@@ -11,26 +11,21 @@ export const siteConfig = {
     github: "https://github.com/zaied54",
   },
   aboutMe:
-    "Site Reliability Engineer focused on enabling reliable, automated, and observable platforms. I design and maintain CI/CD pipelines, streamline deployments on OpenShift and Kubernetes, and champion monitoring best practices. I enjoy improving system stability, reducing manual toil, and driving continuous improvement across engineering teams.",
+    "Site Reliability Engineer focused on making complex platforms more reliable and observable. I combine automation, Grafana expertise, and service-level thinking to give teams and clients clearer insight into infrastructure health while reducing operational overhead.",
   skills: [
     "AWS",
     "Azure",
     "Terraform",
     "Dynatrace",
-    "Splunk",
+    "Grafana",
     "Kubernetes",
     "Azure DevOps",
     "GitHub Actions",
+    "GitHub Copilot",
     "Java",
     "Python",
-    "Oracle",
-    "SQL Developer",
-    "Toad",
-    "Git",
     "GitHub",
     "Docker",
-    "Docker Hub",
-    "Podman",
   ],
   projects: [
     {
@@ -68,10 +63,12 @@ export const siteConfig = {
       title: "Site Reliability Engineer",
       dateRange: "July 2025 - Present",
       bullets: [
+        "Designed and automated Grafana dashboard creation and client-facing metrics publication, reducing manual workload by 90% and license consumption by 80%.",
+        "Deployed and managed multiple Grafana instances, optimizing queries for efficiency and maintaining platform health.",
+        "Designed alerts and defined SLIs/SLOs for Solace, Redis, and Kafka infrastructure to make reliability measurable and support proactive monitoring.",
         "Built and maintained CI/CD pipelines with GitHub Actions and Azure DevOps, improving release reliability and reducing deployment time by 30-50%.",
         "Automated build, test, and deployment workflows for OpenShift and Kubernetes applications, reducing manual production-release steps and human error.",
         "Developed reusable Helm charts to standardize application packaging and deployment configuration.",
-        "Improved observability with Grafana and Dynatrace, enabling real-time visibility, proactive alerting, and actionable performance insights.",
       ],
     },
     {
